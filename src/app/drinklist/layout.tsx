@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Librati Cocktail Pub a Giovinazzo | Drink d’autore",
-  description: "Cocktail bar a Giovinazzo con selezioni premium e drink artigianali. Scopri il menu e prenota.",
+  title: "Vini, Drink e Birra | Librati Cocktail Giovinazzo",
+  description: "Drinklist del Librati Cocktail bar a Giovinazzo con selezioni premium e drink artigianali.",
 };
 
 export default function RootLayout({

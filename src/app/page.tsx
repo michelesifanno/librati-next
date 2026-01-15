@@ -8,12 +8,13 @@ import MenuCTAsection from "@/components/MenuCTAsection";
 import Teddy from "@/components/Teddy";
 import ReferenceSection from "@/components/ReferenceSection";
 import ScrollGallery from "@/components/ScrollGallery";
-
+import MainHeader from '@/components/layout/MainHeader.client';
+import Footer from '@/components/layout/Footer';
 
 export default function Home() {
   return (
     <>
-
+      <MainHeader />
       <Box>
         <HeroSection />
 
@@ -32,9 +33,9 @@ export default function Home() {
         <ScrollGallery />
 
         <ReferenceSection />
-
-
       </Box>
+
+      <Footer />
     </>
   );
 }
